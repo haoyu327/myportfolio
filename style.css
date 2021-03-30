@@ -112,10 +112,13 @@ a {
     text-align: center;
     padding-top: 100px;
     padding-left: -80px;
-    transition: all 1s;
+    transition: all 1s ease;
   }
   .navbar .menu.active {
     left: 0;
+  }
+  .menu-btn i.active:before {
+    content: 'x';
   }
   .navbar .menu li {
     list-style: none;
@@ -309,7 +312,7 @@ img.about-1 {
 }
 @media screen and (max-width: 768px) {
   .about-pic {
-    background-position: right bottom;
+    background-position: right 400px;
   }
   .boxabout h2 {
     font-size: 2rem;
@@ -320,15 +323,12 @@ img.about-1 {
   }
   .boxabout {
     top: 50px;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
+    padding: 10px 5px;
   }
   img.about-1 {
-    width: 200px;
+    width: 250px;
     position: relative;
-    bottom: 350px;
+    bottom: 250px;
     left: -10px;
   }
   .triangle {
