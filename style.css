@@ -318,11 +318,13 @@ img.about-1 {
     font-size: 2rem;
     margin: 10px 0;
   }
-  .about p {
-    font-size: 9px;
+  .about p,
+  .skills-info {
+    font-size: 10px;
   }
-  .boxabout {
-    top: 0px;
+  .boxabout,
+  .skills-info {
+    top: 30px;
     padding: 10px 5px;
   }
   img.about-1 {
@@ -330,9 +332,6 @@ img.about-1 {
     position: relative;
     bottom: 200px;
     left: -10px;
-  }
-  .triangle {
-    display: none;
   }
 }
 
@@ -392,8 +391,33 @@ div[class^='bar-'] {
 }
 
 @media screen and (max-width: 768px) {
+  .html {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 0px;
+  }
+  div[class^='tag-'] p {
+    color: var(--primary-color);
+    font-weight: 700;
+    text-align: left;
+    padding-left: 0;
+    font-size: 14px;
+  }
+
+  .progressbar {
+    position: relative;
+    width: 520px;
+    height: 30px;
+    border: 2px solid var(--primary-color);
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
   .triangle {
-    display: none;
+    background: url(img/skillstriangle.png) no-repeat;
+    background-position: 0px 70px;
+    background-size: 50%;
   }
 }
 
