@@ -508,18 +508,20 @@ div.hideCategory {
 }
 
 @media screen and (max-width: 768px) {
-  .portfolio-pic {
-  }
   .work-category button {
     margin: 10px 20px 0 0;
     padding: 10px 20px;
     font-size: 12px;
   }
-  div[class^='category-'] {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 0.5fr));
-    grid-gap: 20px 100px;
+  .category-designing img,
+  .category-animation video,
+  .category-project img,
+  .category-graphic img {
+    width: 320px;
+    height: 180px;
+  }
+  .portfolio h1 {
+    margin: 50px 0 20px 0;
   }
 }
 
@@ -659,7 +661,39 @@ footer {
 
 @media screen and (max-width: 768px) {
   .contact-pic {
-    display: none;
+    background-size: 50%;
+  }
+  .contact-pic h1 {
+    padding-left: 50px;
+    margin-top: 50px;
+  }
+  .contact-section {
+    background: none;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact h2 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    padding: 0px 0;
+    text-align: left;
+  }
+  .contact-form {
+    padding: 0;
+  }
+  .contact-form-text {
+    width: 350px;
+  }
+  .contact-btn {
+    position: relative;
+    text-decoration: none;
+    display: inline;
+    margin: 10px 500px 0 0;
+    top: 0;
+    left: 0;
+    width: 20%;
   }
 }
 /* footer */
