@@ -489,6 +489,14 @@ div.hideCategory {
   display: block;
 }
 
+.web a:hover{
+  transition: all 0.3s ease-in-out;
+}
+
+.web a:hover{
+  transform: scale(1.1);
+}
+
 .btn {
   text-decoration: none;
   display: inline-block;
