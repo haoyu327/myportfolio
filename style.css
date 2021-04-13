@@ -309,6 +309,30 @@ img.about-1 {
   bottom: 100px;
   left: 100px;
 }
+.btn-sec{
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  transition: 0.3s ease-in;
+  margin: 20px 10px 0 0;
+}
+.btn-sec:hover {
+  box-shadow: inset 150px 0 0 0 #ffc857;
+  color: #fff;
+}
+
+.about a{
+  text-decoration: none;
+  color:#fff;
+}
+.about a:hover{
+  box-shadow: inset 150px 0 0 0 #ffc857;
+  color: #fff;
+}
 @media screen and (max-width: 768px) {
   .about-pic {
     background-position: right 300px;
@@ -332,6 +356,7 @@ img.about-1 {
     bottom: 200px;
     left: -10px;
   }
+
 }
 
 /* skills */
@@ -479,13 +504,13 @@ div[class^='category-'] {
   color: var(--third-color);
 }
 
-.btn2 {
+.btn2,.btn-sec {
   transition: 0.3s ease-in;
+  cursor: pointer;
 }
-
-.btn2:hover {
-  background: var(--primary-color);
-  color: var(--third-color);
+.btn2:hover{
+  box-shadow: inset 200px 0 0 0 #ffc857;
+  color: #fff;
 }
 
 .work a img {
