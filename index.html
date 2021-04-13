@@ -94,8 +94,8 @@
     </section>
 
     <!-- skills -->
-
-    <section class="skills triangle" id="skills">
+    <div class="skills-bar">
+    <section id="skills" class="skills triangle">
       <h1>SKILLS</h1>
       <div class="max-width">
         <p class="skills-info">
@@ -142,7 +142,7 @@
         </div>
       </div>
     </section>
-
+  </div>
     <!-- portfolio -->
 
     <section class="portfolio portfolio-pic" id="portfolio">
@@ -161,7 +161,7 @@
             class="btn2"
             onclick="showRequiredCatergory(this)"
           >
-            Mini Game
+            Mini Games
           </button>
           <button
             id="animation"
@@ -182,10 +182,10 @@
           <a href="https://haoyu327.github.io/project1/" target="_blank"
             ><img src="web/harvest.png" width="450px" height="250px"
           /></a>
-          <a href=""
+          <a href="https://haoyu327.github.io/timeline/" target="_blank"
             ><img src="web/image2.png" width="450px" height="250px"
           /></a>
-          <a href=""
+          <a href="https://haoyu327.github.io/furniture-site/" target="_blank"
             ><img src="web/image3.png" width="450px" height="250px"
           /></a>
           <a href="https://haoyu327.github.io/drinking-menu/" target="_blank"
@@ -206,15 +206,15 @@
               <source src="animation/text.mp4" type="video/mp4" /></video
           >
 <video width="450px" height="250px" controls>
-              <source src="animation/dancing.mp4" /></video
+              <source src="animation/logo animation.mp4" /></video
           >
 <video width="450px" height="250px" controls>
               <source src="animation/purifier.gif" type="gif/mp4" /></video
           >
         </div>
         <div class="category-project hideCategory web">
-          <a href=""
-            ><img src="mini project/mini1.png" width="450px" height="250px"
+          <a href="https://haoyu327.github.io/mini-project/" target="_blank"
+            ><img src="mini project/minigames.png" width="450px" height="250px"
           /></a>
           <a href="https://haoyu327.github.io/bmi-calculator/" target="_blank"
             ><img src="mini project/bmi.png" width="450px" height="250px"
@@ -254,26 +254,28 @@
               <i class="icon fas fa-phone"></i> Phone Number: +1-206-765-816
             </div>
             <div class="item">
-              <i class="icon fas fa-envelope"></i> Email
-              Address: hhsu856@gmail.com
+              <i class="icon fas fa-envelope"></i> Email Address: hhsu856@gmail.com
             </div>
           </div>
           <div>
             <form class="contact-form" action="https://formsubmit.co/hhsu856@gmail.com" method="POST">
               <h2>Have something to tell me ?</h2>
-              <input type="text" class="contact-form-text" placeholder="Name" required>
+              <input type="text" class="contact-form-text" name="name" placeholder="Name" required>
               <input
                 type="email"
+                name="email"
                 class="contact-form-text"
                 placeholder="Email address"
                required>
               <input
                 type="phone"
+                name="phone"
                 class="contact-form-text"
                 placeholder="Phone"
               />
               <textarea
                 class="contact-form-text"
+                name="message"
                 placeholder="Message"
                 required></textarea>
               <center>

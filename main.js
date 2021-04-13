@@ -59,7 +59,7 @@ t1.fromTo(htmlBar, .75, { width: `calc(0% - 6px)` }, { width: `calc(95% - 6px)`,
 
 const contoller = new ScrollMagic.Controller()
 const scene = new ScrollMagic.Scene({
-        triggerElement: '.triangle',
+        triggerElement: '.skills-bar',
         triggerHook: 0
     })
     .setTween(t1)
