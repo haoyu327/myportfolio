@@ -278,7 +278,7 @@ a {
 
 /* about */
 
-.boxabout{
+.boxabout {
   max-width: 900px;
   background-color: #252627;
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
@@ -309,7 +309,7 @@ img.about-1 {
   bottom: 100px;
   left: 100px;
 }
-.btn-sec{
+.btn-sec {
   text-decoration: none;
   display: inline-block;
   padding: 12px 20px;
@@ -325,11 +325,11 @@ img.about-1 {
   color: #fff;
 }
 
-.about a{
+.about a {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
-.about a:hover{
+.about a:hover {
   box-shadow: inset 150px 0 0 0 #ffc857;
   color: #fff;
 }
@@ -356,7 +356,6 @@ img.about-1 {
     bottom: 200px;
     left: -10px;
   }
-
 }
 
 /* skills */
@@ -504,11 +503,12 @@ div[class^='category-'] {
   color: var(--third-color);
 }
 
-.btn2,.btn-sec {
+.btn2,
+.btn-sec {
   transition: 0.3s ease-in;
   cursor: pointer;
 }
-.btn2:hover{
+.btn2:hover {
   box-shadow: inset 200px 0 0 0 #ffc857;
   color: #fff;
 }
@@ -525,11 +525,11 @@ div.hideCategory {
   display: block;
 }
 
-.web a:hover{
+.web a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.web a:hover{
+.web a:hover {
   transform: scale(1.1);
 }
 
@@ -568,8 +568,12 @@ div.hideCategory {
     margin: 50px 0 20px 0;
   }
 
-  .portfolio a{
+  .portfolio a {
     width: fit-content;
+  }
+
+  .all {
+    margin-left: 50px;
   }
 }
 
