@@ -454,6 +454,9 @@ div[class^='bar-'] {
     background-position: 0px 70px;
     background-size: 50%;
   }
+  .skills-info {
+    padding: 10px 5px;
+  }
 }
 
 /* portfolio */
