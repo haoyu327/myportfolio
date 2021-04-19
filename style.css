@@ -93,7 +93,7 @@ a {
 
 @media screen and (max-width: 768px) {
   section {
-    padding: 0px;
+    padding: 50px 0;
   }
   .max-width {
     max-width: 768px;
@@ -109,6 +109,7 @@ a {
     left: -100%;
     top: 0;
     background: #2c3e50;
+    opacity: 0.8;
     text-align: center;
     padding-top: 100px;
     padding-left: -80px;
@@ -118,7 +119,8 @@ a {
     left: 0;
   }
   .menu-btn i.active:before {
-    content: 'x';
+    content: '\f00d';
+    font-family: FontAwesome;
   }
   .navbar .menu li {
     list-style: none;
@@ -431,6 +433,12 @@ div[class^='bar-'] {
     flex-wrap: wrap;
     justify-content: left;
     margin-bottom: 0px;
+  }
+  div[class^='tag-'] {
+    width: 120px;
+    height: 15px;
+    margin-right: 30px;
+    margin-top: 10px;
   }
   div[class^='tag-'] p {
     color: var(--primary-color);
