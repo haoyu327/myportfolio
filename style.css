@@ -216,8 +216,8 @@ a {
   background-image: url('img/portrait.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 1300px;
-  background-position: 600px -150px;
+  background-size: 1250px;
+  background-position: 500px -90px;
   height: 100vh;
 }
 
@@ -262,16 +262,6 @@ a {
 .profile-image img {
   height: 100vh;
   width: 600px;
-}
-
-@media screen and (max-width: 1900px) {
-  .home {
-    background-image: none;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 1200px;
-    background-position: 100px -150px;
-  }
 }
 
 @media screen and (max-width: 768px) {
