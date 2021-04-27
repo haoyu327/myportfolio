@@ -264,13 +264,13 @@ a {
   width: 600px;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1900px) {
   .home {
     background-image: none;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 1200px;
-    background-position: 300px -150px;
+    background-position: 100px -150px;
   }
 }
 
