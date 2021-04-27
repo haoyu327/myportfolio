@@ -93,7 +93,7 @@ a {
 
 @media screen and (max-width: 768px) {
   section {
-    padding: 0px;
+    padding: 50px 0;
   }
   .max-width {
     max-width: 768px;
@@ -109,6 +109,7 @@ a {
     left: -100%;
     top: 0;
     background: #2c3e50;
+    opacity: 0.8;
     text-align: center;
     padding-top: 100px;
     padding-left: -80px;
@@ -118,7 +119,8 @@ a {
     left: 0;
   }
   .menu-btn i.active:before {
-    content: 'x';
+    content: '\f00d';
+    font-family: FontAwesome;
   }
   .navbar .menu li {
     list-style: none;
@@ -278,7 +280,7 @@ a {
 
 /* about */
 
-.boxabout{
+.boxabout {
   max-width: 900px;
   background-color: #252627;
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.25);
@@ -309,7 +311,7 @@ img.about-1 {
   bottom: 100px;
   left: 100px;
 }
-.btn-sec{
+.btn-sec {
   text-decoration: none;
   display: inline-block;
   padding: 12px 20px;
@@ -325,11 +327,11 @@ img.about-1 {
   color: #fff;
 }
 
-.about a{
+.about a {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
-.about a:hover{
+.about a:hover {
   box-shadow: inset 150px 0 0 0 #ffc857;
   color: #fff;
 }
@@ -356,7 +358,6 @@ img.about-1 {
     bottom: 200px;
     left: -10px;
   }
-
 }
 
 /* skills */
@@ -433,6 +434,12 @@ div[class^='bar-'] {
     justify-content: left;
     margin-bottom: 0px;
   }
+  div[class^='tag-'] {
+    width: 120px;
+    height: 15px;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
   div[class^='tag-'] p {
     color: var(--primary-color);
     font-weight: 700;
@@ -454,6 +461,9 @@ div[class^='bar-'] {
     background: url(img/skillstriangle.png) no-repeat;
     background-position: 0px 70px;
     background-size: 50%;
+  }
+  .skills-info {
+    padding: 10px 5px;
   }
 }
 
@@ -504,11 +514,12 @@ div[class^='category-'] {
   color: var(--third-color);
 }
 
-.btn2,.btn-sec {
+.btn2,
+.btn-sec {
   transition: 0.3s ease-in;
   cursor: pointer;
 }
-.btn2:hover{
+.btn2:hover {
   box-shadow: inset 200px 0 0 0 #ffc857;
   color: #fff;
 }
@@ -525,11 +536,11 @@ div.hideCategory {
   display: block;
 }
 
-.web a:hover{
+.web a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.web a:hover{
+.web a:hover {
   transform: scale(1.1);
 }
 
@@ -568,8 +579,12 @@ div.hideCategory {
     margin: 50px 0 20px 0;
   }
 
-  .portfolio a{
+  .portfolio a {
     width: fit-content;
+  }
+
+  .all {
+    margin-left: 20px;
   }
 }
 
